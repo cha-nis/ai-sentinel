@@ -1,0 +1,433 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #000;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.header-fixed {
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+
+.e665_51,
+.e665_52,
+.e665_53,
+.e665_54 {
+    color: rgba(255, 255, 255, 1);
+    width: 185px;
+    height: 43px;
+    top: 36px;
+    font-family: Inter;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.e665_51 {
+    margin-left: 185px; /* Adjust this value as needed */
+}
+
+.e665_52 {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.e665_53 {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.e665_54 {
+    margin-left: 20px; /* Adjust this value as needed */
+}
+
+.e665_55 {
+    width: 527px;
+    height: 100px;
+    position: relative;
+    left: 32px;
+    top: 0px;
+    background-image: url(images/rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.e665_49 {
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 1);
+    width: 1420px;
+    height: 10000px;
+    position: relative;
+    margin-top: 120px; /* 헤더 높이를 고려한 마진 */
+    display: flex;
+    justify-content: center; /* Center the child elements */
+}
+
+.e665_50 { 
+    background-color: rgba(0, 0, 0, 1);
+    width: 1420px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+
+
+.e672_262 {
+    width: 1420px;
+    height: 9993.68px;
+    background-image: url(images/frame_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.e665_59 {
+    background-color: rgba(0, 0, 0, 1);
+    width: 1420px;
+    height: 200px;
+    position: absolute;
+    left: 0px;
+    top: 9800px;
+}
+
+.e665_68 {
+    color: rgba(255, 255, 255, 1);
+    width: 520px;
+    height: 77px;
+    position: absolute;
+    left: 38px;
+    top: 1079px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 64px;
+    letter-spacing: -2;
+}
+
+.e665_76,
+.e665_77,
+.e665_78 {
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    left: 38px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 64px;
+    letter-spacing: -2;
+}
+
+.e665_76 {
+    width: 1020px;
+    height: 82px;
+    top: 1767px;
+}
+
+.e665_77 {
+    width: 1020px;
+    height: 82px;
+    top: 4634px;
+}
+
+.e665_78 {
+    width: 1020px;
+    height: 82px;
+    top: 7066px;
+}
+
+.e665_84 {
+    color: rgba(255, 255, 255, 1);
+    width: 700px;
+    height: 58px;
+    position: absolute;
+    left: 69px;
+    top: 1926px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_85 {
+    color: rgba(255, 255, 255, 1);
+    width: 700px;
+    height: 58px;
+    position: absolute;
+    left: 79px;
+    top: 6114px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_86,
+.e665_87,
+.e665_88,
+.e665_89,
+.e665_90,
+.e665_92 {
+    color: rgba(255, 255, 255, 1);
+    position: absolute;
+    font-family: Inter;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+.e665_86 {
+    width: 596px;
+    height: 352px;
+    left: 138px;
+    top: 2020px;
+}
+
+.e665_87 {
+    width: 471px;
+    height: 418px;
+    left: 148px;
+    top: 6208px;
+}
+
+.e665_88 {
+    width: 770px;
+    height: 704px;
+    left: 148px;
+    top: 7255px;
+}
+
+.e665_89 {
+    width: 613px;
+    height: 378px;
+    left: 769px;
+    top: 2618px;
+    color: rgba(255, 255, 255, 0.73);
+}
+
+.e665_90 {
+    width: 613px;
+    height: 378px;
+    left: 769px;
+    top: 3855px;
+    color: rgba(255, 255, 255, 0.73);
+}
+
+.e665_91 {
+    color: rgba(255, 255, 255, 1);
+    width: 700px;
+    height: 58px;
+    position: absolute;
+    left: 69px;
+    top: 3219px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_92 {
+    width: 596px;
+    height: 264px;
+    left: 138px;
+    top: 3313px;
+}
+
+.e665_93 {
+    color: rgba(255, 255, 255, 1);
+    width: 736px;
+    height: 325px;
+    position: absolute;
+    left: 138px;
+    top: 1185px;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1px;
+}
+
+.e665_94 {
+    color: rgba(255, 255, 255, 1);
+    width: 567px;
+    height: 116px;
+    position: absolute;
+    left: 696px;
+    top: 2466px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_95 {
+    color: rgba(255, 255, 255, 1);
+    width: 626px;
+    height: 58px;
+    position: absolute;
+    left: 696px;
+    top: 3761px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_99 {
+    color: rgba(255, 255, 255, 1);
+    width: 700px;
+    height: 116px;
+    position: absolute;
+    left: 720px;
+    top: 5428px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_100 {
+    color: rgba(255, 255, 255, 1);
+    width: 700px;
+    height: 116px;
+    position: absolute;
+    left: 116px;
+    top: 4789px;
+    font-family: Notable;
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: -2;
+}
+
+.e665_101 {
+    color: rgba(255, 255, 255, 1);
+    width: 596px;
+    height: 132px;
+    position: absolute;
+    left: 107px;
+    top: 4927px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+.e665_102 {
+    color: rgba(255, 255, 255, 1);
+    width: 596px;
+    height: 286px;
+    position: absolute;
+    left: 718px;
+    top: 5708px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+.e665_103 {
+    color: rgba(255, 255, 255, 1);
+    width: 596px;
+    height: 286px;
+    position: absolute;
+    left: 109px;
+    top: 5059px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+.e665_104 {
+    color: rgba(255, 255, 255, 1);
+    width: 596px;
+    height: 132px;
+    position: absolute;
+    left: 720px;
+    top: 5574px;
+    font-family: Inter;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: -1;
+}
+
+.e672_262 {
+    width: 1420px;
+    height: 9993.68px;
+    position: relative;
+    background-image: url(images/frame_9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e673_264 {
+    width: 625px;
+    height: 313px;
+    position: absolute;
+    left: 748px;
+    top: 2015px;
+    background-image: url(images/eu.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e673_265 {
+    width: 624px;
+    height: 309px;
+    position: absolute;
+    left: 48px;
+    top: 3843px;
+    background-image: url(images/uk.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e673_266 {
+    width: 582px;
+    height: 487px;
+    position: absolute;
+    left: 118px;
+    top: 2612px;
+    background-image: url(images/usa.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.e673_267 {
+    width: 624px;
+    height: 320px;
+    position: absolute;
+    left: 747px;
+    top: 3308px;
+    background-image: url(images/japna.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: inherit; /* 부모 요소의 색상을 상속받도록 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+}
